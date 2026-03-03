@@ -27,6 +27,22 @@ h1{
   color: #cc0000;
 }
 
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+ .item{
+   background: #fff;
+   padding: 20px;
+   width: 250px;
+   border-radius: 15px;
+   box-shadow: 0 4px 10px
+    rgba(0,0,0,0,1);
+ }
+ 
 @media (max-width: 600px){
  .nav a {
      display: block;
@@ -41,10 +57,30 @@ h1{
 
 <h1>麺屋　味心</h1>
 
-<img src="https://images.unsplash.com/photo-1585032226651-759b368d7246"
+<img src="https://as1.ftcdn.net/v2/jpg/03/18/49/72/1000_F_318497274_geFv7oWBARFt9bT5o97SwOCXccTNTAgz.jpg"
  width="100%"
  style="max-width:600px;">
- 
+
+ <h2>商品一覧</h2>
+<div class="menu">
+
+   <div class="item">
+ <h3>醤油ラーメン</h3>
+    <p>８００円</p>
+   </div>
+
+ <div class="item">
+   <h3>味噌ラーメン</h3>
+    <P>８５０円</P>
+ </div>
+
+ <div class="item">
+  <h3>チャーシューメン</h3>
+ <P>１０００円</P>
+ </div>
+
+</div>
+  
 <div class="nav">
 <a href="index.html">ホーム</a>
 <a href="menu.html">メニュー</a>
@@ -57,6 +93,7 @@ h1{
 </body>
 
 </html>
+
 
 
 
